@@ -9,8 +9,7 @@ const postSchema = mongoose.Schema({
   author: {
     firstName: String,
     lastName: String
-  },
-  created: Date
+  }
 });
 
 // *virtuals* (http://mongoosejs.com/docs/guide.html#virtuals)
