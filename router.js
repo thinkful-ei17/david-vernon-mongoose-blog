@@ -96,10 +96,7 @@ router.delete('/posts/:id', (req, res) => {
       let output = JSON.stringify(sample,null,4);
       console.log(output);
 
-      res.json({
-        posts: posts.map(
-          (post) => post.serialize())
-      });
+      res.status(204).end();
     });
 });
 
