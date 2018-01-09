@@ -8,7 +8,6 @@ const router = require('./router');
 mongoose.Promise = global.Promise;
 
 const { PORT, DATABASE_URL } = require('./config');
-const { Restaurant } = require('./models');
 
 const app = express();
 app.use(bodyParser.json());
